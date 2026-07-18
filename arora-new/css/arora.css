@@ -1,0 +1,50 @@
+body{
+    background-color: rgb(118, 153, 160);
+    
+}
+
+.carousel-item img{
+    height:200px;
+    margin-top: 150px;
+    object-fit: cover;
+}
+
+@media(min-width:700px){
+    
+        .carousel-item img{
+            height: 350px;
+            
+    }
+}
+.logo{
+     border-radius: 30px;
+     object-fit: cover;
+    }
+
+.contact{
+    width:30px;
+    height:30px;
+}
+
+#pro{
+    margin-top: 150px;
+    margin-bottom: 150px;
+ }
+ .product-circle{
+    width: 100px;
+    height: 100px;
+ }
+
+ @media(min-width:700px){
+    .product-circle{
+        width: 150px;
+    height: 150px;
+
+    }
+ }
+
+ 
+
+
+
+ 
