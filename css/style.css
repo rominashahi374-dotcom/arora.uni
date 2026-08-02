@@ -6,10 +6,11 @@ body{
 .carousel-item img{
     height:200px;
     margin-top: 150px;
-    object-fit: cover;
+    object-fit: fill;
+    border-radius: 300px;
 }
 
-@media(min-width:700px){
+@media(min-width:730px){
     
         .carousel-item img{
             height: 350px;
@@ -33,18 +34,39 @@ body{
  .product-circle{
     width: 100px;
     height: 100px;
+     transition: all 0.5s ease;
  }
 
- @media(min-width:700px){
+ @media(min-width:730px){
     .product-circle{
         width: 150px;
     height: 150px;
 
     }
  }
+ .info{
+    max-width:70%;
+    margin-bottom:10px;
+ }
 
+   @media(min-width:10px) and (max-width:540px){
+    body{
+        background-color: rgb(143, 159, 241);
+    }
+    
+ }
+ @media(min-width:540px) and (max-width:720px){
+    body{
+        background-color: rgb(175, 159, 217);
+    }
+    
+ }
+
+
+    .product-circle:hover{
+    transform: scale(1.15); 
+}
+    
  
-
-
 
  
